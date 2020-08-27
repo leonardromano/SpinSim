@@ -9,9 +9,7 @@ Created on Sat Apr 25 14:38:45 2020
 import matplotlib.pyplot as plt
 import numpy as np
 
-path = "Data/EulerAngleIntegrated/L=50nm, d=300nm/classical transmission/w=5/"
-#path = "Data/"
-#files = ["true", "false"]
+path = "<path-to-data>"
 files = ["flipper on RK4" , "flipper off RK4"]
 title = "L=50nm, B=const., w=5"
 
